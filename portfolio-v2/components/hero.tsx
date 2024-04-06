@@ -30,29 +30,29 @@ export default function hero() {
             </p>
             <div className="flex justify-center gap-10 mt-4 pt-5 text-black dark:invert">
                 <a
-                    href="https://github.com/yourusername"
+                    href="https://github.com/SafwanChowdhury"
                     target="_blank"
-                    className="drop-shadow-lg"
+                    className="drop-shadow-md hover:drop-shadow-none"
                 >
                     <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
                 <a
-                    href="https://www.linkedin.com/in/yourprofile"
+                    href="https://www.linkedin.com/in/safwan-r-chowdhury/"
                     target="_blank"
-                    className="drop-shadow-lg"
+                    className="drop-shadow-md hover:drop-shadow-none"
                 >
                     <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
                 <a
-                    href="https://x.com/yourusername"
+                    href="https://x.com/SafwanRija"
                     target="_blank"
-                    className="drop-shadow-lg"
+                    className="drop-shadow-md hover:drop-shadow-none"
                 >
                     <FontAwesomeIcon icon={faXTwitter} size="2x" />
                 </a>
                 <a
-                    href="mailto:youremail@example.com"
-                    className="drop-shadow-lg"
+                    href="mailto:safwan.chowdhury1@outlook.com"
+                    className="drop-shadow-md hover:drop-shadow-none"
                 >
                     <FontAwesomeIcon icon={faEnvelope} size="2x" />
                 </a>
