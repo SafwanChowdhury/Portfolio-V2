@@ -16,9 +16,9 @@ export default function Home() {
             <div id="coding" className="pt-6">
                 <Coding />
             </div>
-            {/* <div id="projects" className="pt-6">
+            <div id="projects" className="pt-6">
                 <Projects />
-            </div> */}
+            </div>
         </main>
     );
 }

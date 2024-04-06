@@ -1,7 +1,9 @@
 export default function Projects() {
     return (
         <div>
-            <h1>Projects</h1>
+            <h1 className="text-4xl text-center font-thin mt-4 pt-16">
+                My Projects
+            </h1>{" "}
         </div>
     );
 }
