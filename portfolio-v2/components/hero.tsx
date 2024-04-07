@@ -12,12 +12,17 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function hero() {
     return (
         <div className="relative flex-col justify-center p-5">
-            <h1 className="text-6xl font-bold text-center text-gray-900 dark:text-gray-200">
-                Safwan R. Chowdhury
+            <div>
+                <h1 className="text-6xl font-bold text-center text-gray-900 dark:text-gray-200">
+                    Safwan R.
+                </h1>{" "}
+                <h2 className="text-6xl text-center text-gray-900 dark:text-gray-200 font-extralight">
+                    Chowdhury
+                </h2>
                 <div className="text-2xl font-light text-center text-gray-900 pt-5 dark:text-gray-200">
                     <TextScrambleComponent />
                 </div>
-            </h1>
+            </div>
             <div className="w-11/12 mx-auto h-0.5 bg-gray-900 dark:bg-gray-200 mt-4 mb-4"></div>
 
             <p className="w-11/12 lg:w-6/12 font-light text-center pt-3 mx-auto">

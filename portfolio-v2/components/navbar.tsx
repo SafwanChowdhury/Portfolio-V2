@@ -61,7 +61,7 @@ export default function Navbar() {
                         : "opacity-0 pointer-events-none"
                 }`}
             >
-                <nav className="hidden sm:flex items-center p-3 sm:pt-6 lg:p-10 w-full bg-black dark:bg-white sm:bg-transparent sm:dark:bg-transparent text-slate-200 sm:text-black">
+                <nav className="hidden sm:flex items-center p-3 sm:pt-6 lg:p-10 w-full bg-black dark:bg-white sm:bg-transparent sm:dark:bg-transparent text-slate-200 dark:text-slate-200 sm:text-black">
                     <h1 className="text-md sm:text-2xl font-normal tracking-widest pl-3 sm:pl-10 cursor-pointer justify-self-start shrink-0">
                         SRC
                     </h1>
@@ -89,9 +89,9 @@ export default function Navbar() {
             >
                 <nav
                     ref={navbarRef}
-                    className="bg-black dark:bg-white text-slate-200 flex items-center justify-between p-4"
+                    className="bg-black dark:bg-gray-600 dark:backdrop-blur-lg dark:opacity-[.97] text-slate-200 dark:text-slate-100 flex items-center justify-between p-4"
                 >
-                    <h1 className="text-2xl font-medium tracking-widest pt-1 sm:pl-10 sm:text-2xl sm:font-normal cursor-pointer">
+                    <h1 className="text-2xl font-medium tracking-widest sm:pl-10 sm:text-2xl sm:font-normal cursor-pointer">
                         SRC
                     </h1>
                     <ul className="text-md gap-8 justify-end tracking-widest items-center w-full hidden sm:flex pr-10">
@@ -126,12 +126,16 @@ export default function Navbar() {
                     opened ? "max-h-96" : "max-h-0"
                 }`}
             >
-                <li className="bg-black dark:bg-white border-t border-gray-700 pt-4 pb-2">
+                <li className="bg-black dark:bg-gray-600 dark:opacity-[.98] border-t border-gray-700 dark:border-gray-400 pt-4 pb-2">
                     About Me
                 </li>
-                <li className="bg-black dark:bg-white py-2">Tools</li>
-                <li className="bg-black dark:bg-white py-2">Projects</li>
-                <li className="bg-black dark:bg-white pt-2 pb-4">
+                <li className="bg-black dark:bg-gray-600 dark:opacity-[.98] py-2">
+                    Tools
+                </li>
+                <li className="bg-black dark:bg-gray-600 dark:opacity-[.98] py-2">
+                    Projects
+                </li>
+                <li className="bg-black dark:bg-gray-600 dark:opacity-[.98] pt-2 pb-4">
                     Photography
                 </li>
             </ul>
