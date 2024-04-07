@@ -8,11 +8,9 @@ import {
     faXing,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import SVGGradientComponent from "./corners";
 
 export default function hero() {
     return (
-        /* <div className="relative p-5 bg-gray-100  rounded-lg drop-shadow-lg"> */
         <div className="relative flex-col justify-center p-5">
             <h1 className="text-6xl font-bold text-center text-gray-900 dark:text-gray-200">
                 Safwan R. Chowdhury
@@ -22,7 +20,7 @@ export default function hero() {
             </h1>
             <div className="w-11/12 mx-auto h-0.5 bg-gray-900 dark:bg-gray-200 mt-4 mb-4"></div>
 
-            <p className="w-6/12 font-light text-center pt-3 mx-auto">
+            <p className="w-11/12 lg:w-6/12 font-light text-center pt-3 mx-auto">
                 {" "}
                 A versatile Full-Stack Developer with a flair for crafting
                 immersive VR and modern web and app solutions, I bring legacy

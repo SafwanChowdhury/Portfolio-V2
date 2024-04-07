@@ -1,11 +1,11 @@
 export default function Coding() {
     return (
         <div>
-            <h1 className="text-4xl text-center font-thin mt-4 pt-24">
+            <h1 className="text-4xl text-center font-thin mt-4 pt-10 lg:pt-24">
                 My Toolset
             </h1>
-            <div className="relative z-20 sm:z-auto pt-16">
-                <div className="mx-auto max-w-container px-4 pb-16 sm:px-6 lg:px-8">
+            <div className="relative z-20 w-screen sm:w-auto sm:z-auto pt-16">
+                <div className="mx-auto w-10/12 sm:w-auto max-w-container px-0 pb-16 sm:px-6 lg:px-8">
                     <div className="relative mx-auto grid max-w-[40rem] grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-3">
                         {/* Python */}
                         <div className="group flex p-0.5">
