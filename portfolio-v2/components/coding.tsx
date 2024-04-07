@@ -26,7 +26,7 @@ export default function Coding() {
                                         <g
                                             id="Dribbble-Light-Preview"
                                             transform="translate(-340.000000, -7599.000000)"
-                                            className="fill-black dark:fill-white"
+                                            className="fill-black dark:fill-slate-300"
                                         >
                                             <g
                                                 id="icons"
@@ -122,7 +122,7 @@ export default function Coding() {
                                         <g
                                             id="Dribbble-Light-Preview"
                                             transform="translate(-420.000000, -7479.000000)"
-                                            className="fill-black dark:fill-white"
+                                            className="fill-black dark:fill-slate-300"
                                         >
                                             <g
                                                 id="icons"
@@ -177,7 +177,7 @@ export default function Coding() {
                                     viewBox="0 0 16 17"
                                     className="w-6 h-6 block group-hover:hidden"
                                 >
-                                    <g className="fill-black dark:fill-white">
+                                    <g className="fill-black dark:fill-slate-300">
                                         <path d="M15.54 0.5l-1.28 14.379-5.78 1.621-5.74-1.621-1.28-14.379h14.080zM12.92 3.439h-8.84l0.47 5.34h6.121l-0.222 2.279-1.969 0.532-1.96-0.531-0.13-1.399h-1.749l0.22 2.779 3.62 1h0.039v-0.010l3.591-0.99 0.5-5.44h-6.441l-0.15-1.81h6.74l0.16-1.75z" />
                                     </g>
                                 </svg>
@@ -226,7 +226,7 @@ export default function Coding() {
                                     viewBox="-20 0 550 510"
                                     className="w-6 h-10 block group-hover:hidden"
                                 >
-                                    <g className="fill-black dark:fill-white">
+                                    <g className="fill-black dark:fill-slate-300">
                                         <path
                                             d="M483.111,0.501l-42.59,461.314l-184.524,49.684L71.47,461.815L28.889,0.501H483.111z M397.29,94.302
 		H255.831H111.866l6.885,55.708h137.08h7.7l-7.7,3.205l-132.07,55.006l4.38,54.453l127.69,0.414l68.438,0.217l-4.381,72.606
@@ -254,7 +254,7 @@ export default function Coding() {
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 32 32"
-                                    className="w-6 h-6 block fill-black dark:fill-white group-hover:fill-sky-800"
+                                    className="w-6 h-6 block fill-black dark:fill-slate-300 group-hover:fill-sky-800"
                                 >
                                     <path d="M10.676,15.973a10.052,10.052,0,0,0,1.175,5.151,5.446,5.446,0,0,0,6.306,2.408,4.284,4.284,0,0,0,3.09-3.6c.107-.6.109-.61.109-.61,1.737.251,4.537.658,6.274.906l-.11.44a11.256,11.256,0,0,1-2.7,5.39,9.439,9.439,0,0,1-5.366,2.688,14.61,14.61,0,0,1-8.277-.819A10.151,10.151,0,0,1,5.4,21.687a16.225,16.225,0,0,1,.019-11.45,10.538,10.538,0,0,1,8.963-7.054,13.353,13.353,0,0,1,6.666.555,9.571,9.571,0,0,1,6.167,6.9c.094.352.114.417.114.417-1.932.351-4.319.8-6.238,1.215-.362-1.915-1.265-3.428-3.2-3.9a5.263,5.263,0,0,0-6.616,3.57,10.49,10.49,0,0,0-.385,1.439A12.31,12.31,0,0,0,10.676,15.973Z" />
                                 </svg>
@@ -280,7 +280,7 @@ export default function Coding() {
                                     viewBox="0 0 22 22"
                                     className="w-6 h-6 block group-hover:hidden"
                                 >
-                                    <g className="fill-black dark:fill-white">
+                                    <g className="fill-black dark:fill-slate-300">
                                         <path d="M6.078 12A5.928 5.928 0 0 1 12 6.078a5.946 5.946 0 0 1 5.129 2.959l-1.499.867 5.027-2.902a1.579 1.579 0 0 0-.543-.575l-7.345-4.24c-.424-.245-1.116-.245-1.539 0l-7.345 4.24c-.422.244-.768.844-.768 1.333v8.48c0 .245.086.517.226.758l3.529-2.038A5.883 5.883 0 0 1 6.078 12z" />
                                         <path d="M14.564 10.519A2.971 2.971 0 0 0 12 9.039a2.964 2.964 0 0 0-2.564 4.441L12 12l2.564-1.481z" />
                                         <path d="m20.657 7.002-5.046 2.913-1.046.605-.001-.001L12 12l-2.563 1.48A2.964 2.964 0 0 0 12 14.961a2.97 2.97 0 0 0 2.565-1.481l2.563 1.483a5.944 5.944 0 0 1-5.129 2.959 5.926 5.926 0 0 1-5.128-2.962l-3.529 2.038c.14.242.332.453.543.575l7.345 4.24c.423.245 1.115.245 1.539 0l7.345-4.24c.211-.122.403-.333.543-.575.14-.241.226-.513.226-.758V7.76c0-.245-.086-.517-.226-.758zm-2.735 5.327h-.658v.658h-.657v-.658h-.658v-.658h.658v-.658h.657v.658h.658v.658zm2.468 0h-.658v.658h-.658v-.658h-.657v-.658h.657v-.658h.658v.658h.658v.658z" />
@@ -291,7 +291,7 @@ export default function Coding() {
                                     viewBox="0 0 512 512"
                                     className="w-6 h-10 block group-hover:hidden"
                                 >
-                                    <g className="fill-black dark:fill-white">
+                                    <g className="fill-black dark:fill-slate-300">
                                         <path
                                             d="M193.918,208.369c-4.729-10.456-6.849-22.652-3.236-33.731c3.612-11.327,11.703-20.413,19.794-28.878
 		c22.525-22.531,50.285-39.085,72.316-61.986c12.197-12.573,22.278-27.634,25.762-44.937c2.864-12.695,1.496-25.764-1.117-38.337
@@ -423,7 +423,7 @@ export default function Coding() {
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 585.918 585.918"
-                                    className="w-6 h-6 block fill-black dark:fill-white group-hover:fill-sky-600"
+                                    className="w-6 h-6 block fill-black dark:fill-slate-300 group-hover:fill-sky-600"
                                 >
                                     <g>
                                         <path
@@ -594,7 +594,7 @@ export default function Coding() {
                                     viewBox="0 0 22 22"
                                     className="w-6 h-6 block group-hover:hidden"
                                 >
-                                    <g className="fill-black dark:fill-white">
+                                    <g className="fill-black dark:fill-slate-300">
                                         <path d="m21.62 11.108-8.731-8.729a1.292 1.292 0 0 0-1.823 0L9.257 4.19l2.299 2.3a1.532 1.532 0 0 1 1.939 1.95l2.214 2.217a1.53 1.53 0 0 1 1.583 2.531c-.599.6-1.566.6-2.166 0a1.536 1.536 0 0 1-.337-1.662l-2.074-2.063V14.9c.146.071.286.169.407.29a1.537 1.537 0 0 1 0 2.166 1.536 1.536 0 0 1-2.174 0 1.528 1.528 0 0 1 0-2.164c.152-.15.322-.264.504-.339v-5.49a1.529 1.529 0 0 1-.83-2.008l-2.26-2.271-5.987 5.982c-.5.504-.5 1.32 0 1.824l8.731 8.729a1.286 1.286 0 0 0 1.821 0l8.69-8.689a1.284 1.284 0 0 0 .003-1.822" />
                                     </g>
                                 </svg>
@@ -631,7 +631,7 @@ export default function Coding() {
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 32 32"
-                                    className="w-6 h-6 block opacity-100 fill-black dark:fill-white group-hover:fill-slate-500 dark:group-hover:fill-slate-400"
+                                    className="w-6 h-6 block opacity-100 fill-black dark:fill-slate-300 group-hover:fill-slate-500 dark:group-hover:fill-slate-400"
                                 >
                                     <path
                                         d="M20.477,2l-4.5,8h-9l4.5-8h9"
@@ -687,7 +687,7 @@ export default function Coding() {
                                     viewBox="0 -1.5 27 27"
                                     className="w-6 h-6 block group-hover:hidden"
                                 >
-                                    <g className="fill-black dark:fill-white">
+                                    <g className="fill-black dark:fill-slate-300">
                                         <path d="m24.698 16.885c.063-.126.063-.252.126-.377 1.512-5.923-2.08-12.853-8.254-16.507 1.952 2.446 3.132 5.582 3.132 8.995 0 1.032-.108 2.038-.313 3.009l.017-.095c-.087.39-.195.728-.33 1.052l.015-.041c-.2-.111-.365-.215-.524-.327l.019.012c-4.757-3.149-8.901-6.575-12.651-10.389l-.011-.011c2.438 3.602 4.965 6.75 7.722 9.678l-.036-.039c-4.121-2.64-7.702-5.378-11.039-8.381l.076.067c.474.784.972 1.463 1.524 2.093l-.014-.017c3.3 4.423 6.99 8.272 11.099 11.626l.117.092c-3.213 1.955-7.687 2.08-12.224 0-1.203-.57-2.236-1.2-3.195-1.923l.046.033c2.022 3.147 4.88 5.601 8.261 7.079l.12.047c1.693.839 3.687 1.331 5.796 1.331s4.103-.491 5.874-1.365l-.078.035h.064c.146-.065.271-.15.378-.252h-.001c1.512-.756 4.474-1.573 6.112 1.573.44.882 1.259-3.213-1.827-6.994z" />
                                     </g>
                                 </svg>

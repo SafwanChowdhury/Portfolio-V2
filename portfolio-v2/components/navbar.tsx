@@ -61,7 +61,7 @@ export default function Navbar() {
                         : "opacity-0 pointer-events-none"
                 }`}
             >
-                <nav className="hidden sm:flex items-center p-3 sm:pt-6 lg:p-10 w-full bg-black dark:bg-white sm:bg-transparent sm:dark:bg-transparent text-slate-200 dark:text-slate-200 sm:text-black">
+                <nav className="hidden sm:flex items-center p-3 sm:pt-6 lg:p-10 w-full bg-black dark:bg-slate-300 sm:bg-transparent sm:dark:bg-transparent text-slate-200 dark:text-slate-200 sm:text-black">
                     <h1 className="text-md sm:text-2xl font-normal tracking-widest pl-3 sm:pl-10 cursor-pointer justify-self-start shrink-0">
                         SRC
                     </h1>
@@ -115,7 +115,7 @@ export default function Navbar() {
                         onClick={toggleMenu}
                     >
                         <div className="tham-box">
-                            <div className="tham-inner bg-white" />
+                            <div className="tham-inner bg-slate-300" />
                         </div>
                     </div>
                 </nav>
