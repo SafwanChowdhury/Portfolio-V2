@@ -110,13 +110,13 @@ export default function Navbar() {
                         </li>
                     </ul>
                     <div
-                        className={`tham tham-e-squeeze tham-w-6 sm:hidden${
-                            opened ? " tham-active" : ""
+                        className={`tham tham-e-squeeze tham-w-6 sm:hidden !duration-300 ${
+                            opened ? "tham-active" : ""
                         }`}
                         onClick={toggleMenu}
                     >
                         <div className="tham-box">
-                            <div className="tham-inner bg-slate-300" />
+                            <div className="tham-inner bg-slate-300 !duration-300 before:!duration-500 after:!duration-300" />
                         </div>
                     </div>
                 </nav>
