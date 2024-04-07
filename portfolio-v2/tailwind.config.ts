@@ -10,6 +10,6 @@ const config: Config = {
     extend: {
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-hamburgers')],
 };
 export default config;
