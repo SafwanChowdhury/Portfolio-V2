@@ -1,5 +1,6 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
+import classNames from "classnames";
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -110,7 +111,7 @@ export default function Navbar() {
                     </ul>
                     <div
                         className={`tham tham-e-squeeze tham-w-6 sm:hidden${
-                            opened ? "tham-active" : ""
+                            opened ? " tham-active" : ""
                         }`}
                         onClick={toggleMenu}
                     >
