@@ -13,7 +13,8 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl unoptimized hidden group-hover:block"
+                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                        unoptimized
                         priority
                     />
                     <Image
@@ -80,6 +81,7 @@ export default function Projects() {
                         height={300}
                         objectFit="cover"
                         className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                        unoptimized
                         priority
                     />
                     <Image
@@ -98,7 +100,8 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl unoptimized hidden group-hover:block"
+                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                        unoptimized
                         priority
                     />
                     <Image
@@ -160,6 +163,7 @@ export default function Projects() {
                         height={300}
                         objectFit="cover"
                         className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                        unoptimized
                         priority
                     />
                     <Image
@@ -180,6 +184,7 @@ export default function Projects() {
                     height={300}
                     objectFit="cover"
                     className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                    unoptimized
                     priority
                 />
                 <Image
