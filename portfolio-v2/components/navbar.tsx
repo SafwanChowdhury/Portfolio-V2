@@ -5,8 +5,8 @@ import Link from "next/link";
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
     const [opened, setOpened] = useState(false);
-    const navbarRef = useRef(null); // Ref for the navbar
-    const menuRef = useRef(null); // Ref for the menu
+    const navbarRef = useRef<HTMLDivElement>(null);
+    const menuRef = useRef<HTMLDivElement>(null);
 
     const toggleMenu = () => {
         setOpened(!opened);
@@ -34,24 +34,25 @@ export default function Navbar() {
         };
     }, []);
 
-    // Close the menu if clicking outside of it
     useEffect(() => {
-        const handleClickOutside = (event) => {
+        const handleClickOutside = (event: MouseEvent) => {
             if (
                 navbarRef.current &&
-                !navbarRef.current.contains(event.target) &&
+                navbarRef.current.contains(event.target as Node) &&
                 menuRef.current &&
-                !menuRef.current.contains(event.target)
+                !menuRef.current.contains(event.target as Node)
             ) {
+                // Assuming setOpened is a state setter function you've defined elsewhere
                 setOpened(false);
             }
         };
 
+        // Note: `mousedown` event type is inferred correctly as MouseEvent
         document.addEventListener("mousedown", handleClickOutside);
         return () => {
             document.removeEventListener("mousedown", handleClickOutside);
         };
-    }, []); // Empty dependency array means this effect runs once on mount
+    }, []); // Dependency array is empty, meaning this effect runs once on mount
 
     return (
         <div>

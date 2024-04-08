@@ -37,7 +37,7 @@ export default function Projects() {
                             Vite and Three.js, this game supports both local and
                             online gameplay, enriched with customizable features
                             including glow-in-the-dark and Harry Potter-inspired
-                            'Wizards Chess' modes. Players can immerse
+                            &apos;Wizards Chess&apos; modes. Players can immerse
                             themselves in VR, navigating a life-sized chessboard
                             for a unique gaming experience. Backed by a powerful
                             server for seamless lobbies and match tracking, it
@@ -59,17 +59,18 @@ export default function Projects() {
                         <p className="mt-3 text-md text-gray-500 dark:text-gray-300 lg:text-sm pb-10">
                             In a collaborative university project, I spearheaded
                             the front-end design for a hypothetical eScooter
-                            company's website, demonstrating my UI/UX design
-                            skills. Utilizing Flask, HTML, CSS, and JavaScript,
-                            I developed the site's interface, focusing on a
-                            seamless user experience while my teammates handled
-                            additional development tasks. The site boasts a
-                            captivating home page featuring a simulated booking
-                            system, where users can reserve scooters at
-                            designated locations. Key features include a
-                            comprehensive account system, admin controls, and
-                            secure sign-in. Bookings trigger confirmation
-                            emails, simulating a complete user journey.
+                            company&apos;s website, demonstrating my UI/UX
+                            design skills. Utilizing Flask, HTML, CSS, and
+                            JavaScript, I developed the site&apos;s interface,
+                            focusing on a seamless user experience while my
+                            teammates handled additional development tasks. The
+                            site boasts a captivating home page featuring a
+                            simulated booking system, where users can reserve
+                            scooters at designated locations. Key features
+                            include a comprehensive account system, admin
+                            controls, and secure sign-in. Bookings trigger
+                            confirmation emails, simulating a complete user
+                            journey.
                         </p>
                     </div>
                     <Image
@@ -117,14 +118,14 @@ export default function Projects() {
                         </a>
                         <p className="mt-3 text-md text-gray-500 dark:text-gray-300 lg:text-sm pb-10">
                             In a voluntary effort, I designed a website for
-                            "Fight Hunger Now," a charity aimed at feeding the
-                            underprivileged. This project, one of my first using
-                            Figma, let donors directly impact chosen areas,
-                            marrying my web design skills development with
-                            meaningful contribution. My involvement not only
-                            advanced my proficiency in Figma but also allowed me
-                            to create an accessible platform facilitating
-                            crucial support for those in need.
+                            &quot;Fight Hunger Now,&quot; a charity aimed at
+                            feeding the underprivileged. This project, one of my
+                            first using Figma, let donors directly impact chosen
+                            areas, marrying my web design skills development
+                            with meaningful contribution. My involvement not
+                            only advanced my proficiency in Figma but also
+                            allowed me to create an accessible platform
+                            facilitating crucial support for those in need.
                         </p>
                     </div>
                 </div>
@@ -141,14 +142,15 @@ export default function Projects() {
                             Project SOS is an fun iOS app created in Unity,
                             offering players the intense challenge of executing
                             safe plane landings. By tapping to adjust the
-                            plane's lift and carefully managing fuel, players
-                            aim to transport 300 passengers as far as possible.
-                            Success hinges on soft landings—hard landings risk
-                            passenger safety, adding depth to the game. It's a
-                            test of strategy, precision, and reflexes, with
-                            intuitive controls and lifelike piloting dynamics,
-                            appealing to simulation and strategy enthusiasts as
-                            well as casual gamers who enjoy a challenge
+                            plane&rsquo;s lift and carefully managing fuel,
+                            players aim to transport 300 passengers as far as
+                            possible. Success hinges on soft landings—hard
+                            landings risk passenger safety, adding depth to the
+                            game. It&rsquo;s a test of strategy, precision, and
+                            reflexes, with intuitive controls and lifelike
+                            piloting dynamics, appealing to simulation and
+                            strategy enthusiasts as well as casual gamers who
+                            enjoy a challenge
                         </p>
                     </div>
                     <Image
@@ -198,18 +200,18 @@ export default function Projects() {
                     <p className="mt-3 text-md text-gray-500 dark:text-gray-300 lg:text-sm pb-10">
                         Project Implosion is an engaging Unity-based iOS game
                         that plunges players into a deep-sea aboard a submarine.
-                        The core challenge lies in maintaining the submarine's
-                        pressure within a safe range, indicated by keeping the
-                        pressure gauge in the green zone. As the descent
-                        deepens, managing internal pressure becomes increasingly
-                        difficult, pushing players to explore the abyss as far
-                        as possible before succumbing to an implosion. This
-                        experience merges strategy, precision, and critical
-                        decision-making, growing more intense with each level.
-                        Featuring intuitive controls, stunning graphics, and
-                        edge-of-your-seat gameplay, Project Implosion offers a
-                        thrilling deep-sea adventure for strategy fans and
-                        adrenaline junkies alike.
+                        The core challenge lies in maintaining the
+                        submarine&rsquo;s pressure within a safe range,
+                        indicated by keeping the pressure gauge in the green
+                        zone. As the descent deepens, managing internal pressure
+                        becomes increasingly difficult, pushing players to
+                        explore the abyss as far as possible before succumbing
+                        to an implosion. This experience merges strategy,
+                        precision, and critical decision-making, growing more
+                        intense with each level. Featuring intuitive controls,
+                        stunning graphics, and edge-of-your-seat gameplay,
+                        Project Implosion offers a thrilling deep-sea adventure
+                        for strategy fans and adrenaline junkies alike.
                     </p>
                 </div>
             </div>
