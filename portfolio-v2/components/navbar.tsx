@@ -10,6 +10,7 @@ export default function Navbar() {
     const menuRef = useRef<HTMLUListElement>(null);
 
     const toggleMenu = () => {
+        console.log("toggleMenu" + opened);
         setOpened(!opened);
     };
 
@@ -37,13 +38,11 @@ export default function Navbar() {
 
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
+            // If the click is outside the navbar, close the menu.
             if (
                 navbarRef.current &&
-                navbarRef.current.contains(event.target as Node) &&
-                menuRef.current &&
-                !menuRef.current.contains(event.target as Node)
+                !navbarRef.current.contains(event.target as Node)
             ) {
-                // Assuming setOpened is a state setter function you've defined elsewhere
                 setOpened(false);
             }
         };
@@ -115,7 +114,10 @@ export default function Navbar() {
                         className={`tham tham-e-squeeze tham-w-6 sm:hidden !duration-300 ${
                             opened ? "tham-active" : ""
                         }`}
-                        onClick={toggleMenu}
+                        onClick={(event) => {
+                            event.stopPropagation(); // Prevent click from propagating
+                            toggleMenu();
+                        }}
                     >
                         <div className="tham-box">
                             <div className="tham-inner bg-slate-300 !duration-300 before:!duration-500 after:!duration-300" />
@@ -125,7 +127,7 @@ export default function Navbar() {
             </div>
             <ul
                 ref={menuRef}
-                className={`fixed top-16 z-50 text-md text-center tracking-widest justify-center items-center w-full text-slate-200 transition-all duration-500 overflow-hidden ${
+                className={`fixed top-16 z-50 text-md text-center tracking-widest justify-center items-center w-full text-slate-200 transition-all duration-500 overflow-hidden sm:hidden ${
                     opened ? "max-h-96" : "max-h-0"
                 }`}
             >
