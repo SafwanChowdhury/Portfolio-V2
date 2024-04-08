@@ -13,7 +13,8 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl unoptimized hidden group-hover:block"
+                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                        unoptimized
                         priority
                     />
                     <Image
@@ -74,17 +75,18 @@ export default function Projects() {
                         </p>
                     </div>
                     <Image
-                        src="/assets/gif/escooter.gif"
-                        alt="Chess"
+                        src="/assets/Gif/escooter.gif"
+                        alt="Escooter"
                         width={800}
                         height={300}
                         objectFit="cover"
                         className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                        unoptimized
                         priority
                     />
                     <Image
                         src="/assets/Images/scooter.webp"
-                        alt="Chess"
+                        alt="Escooter"
                         width={800}
                         height={300}
                         objectFit="cover"
@@ -94,16 +96,17 @@ export default function Projects() {
                 <div className="group lg:mt-8 lg:-mx-6 flex flex-col-reverse lg:flex-row justify-center items-center">
                     <Image
                         src="/assets/Gif/fhn.gif"
-                        alt="Chess"
+                        alt="FHN"
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl unoptimized hidden group-hover:block"
+                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                        unoptimized
                         priority
                     />
                     <Image
                         src="/assets/Images/fhn.webp"
-                        alt="Chess"
+                        alt="FHN"
                         width={800}
                         height={300}
                         objectFit="cover"
@@ -154,17 +157,18 @@ export default function Projects() {
                         </p>
                     </div>
                     <Image
-                        src="/assets/gif/Project_SOS.gif"
-                        alt="Chess"
+                        src="/assets/Gif/Project_SOS.gif"
+                        alt="Project SOS"
                         width={800}
                         height={300}
                         objectFit="cover"
                         className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                        unoptimized
                         priority
                     />
                     <Image
                         src="/assets/Images/ps.webp"
-                        alt="Chess"
+                        alt="Project SOS"
                         width={800}
                         height={300}
                         objectFit="cover"
@@ -174,17 +178,18 @@ export default function Projects() {
             </div>
             <div className="group lg:mt-8 lg:-mx-6 flex flex-col-reverse lg:flex-row justify-center items-center">
                 <Image
-                    src="/assets/gif/Project_Implosion.gif"
-                    alt="Chess"
+                    src="/assets/Gif/Project_Implosion.gif"
+                    alt="Project Implosion"
                     width={800}
                     height={300}
                     objectFit="cover"
                     className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                    unoptimized
                     priority
                 />
                 <Image
                     src="/assets/Images/pi.webp"
-                    alt="Chess"
+                    alt="Project Implosion"
                     width={800}
                     height={300}
                     objectFit="cover"
