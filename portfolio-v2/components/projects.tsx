@@ -75,7 +75,7 @@ export default function Projects() {
                     </div>
                     <Image
                         src="/assets/gif/escooter.gif"
-                        alt="Chess"
+                        alt="Escooter"
                         width={800}
                         height={300}
                         objectFit="cover"
@@ -84,7 +84,7 @@ export default function Projects() {
                     />
                     <Image
                         src="/assets/Images/scooter.webp"
-                        alt="Chess"
+                        alt="Escooter"
                         width={800}
                         height={300}
                         objectFit="cover"
@@ -94,7 +94,7 @@ export default function Projects() {
                 <div className="group lg:mt-8 lg:-mx-6 flex flex-col-reverse lg:flex-row justify-center items-center">
                     <Image
                         src="/assets/Gif/fhn.gif"
-                        alt="Chess"
+                        alt="FHN"
                         width={800}
                         height={300}
                         objectFit="cover"
@@ -103,7 +103,7 @@ export default function Projects() {
                     />
                     <Image
                         src="/assets/Images/fhn.webp"
-                        alt="Chess"
+                        alt="FHN"
                         width={800}
                         height={300}
                         objectFit="cover"
@@ -155,7 +155,7 @@ export default function Projects() {
                     </div>
                     <Image
                         src="/assets/gif/Project_SOS.gif"
-                        alt="Chess"
+                        alt="Project SOS"
                         width={800}
                         height={300}
                         objectFit="cover"
@@ -164,7 +164,7 @@ export default function Projects() {
                     />
                     <Image
                         src="/assets/Images/ps.webp"
-                        alt="Chess"
+                        alt="Project SOS"
                         width={800}
                         height={300}
                         objectFit="cover"
@@ -175,7 +175,7 @@ export default function Projects() {
             <div className="group lg:mt-8 lg:-mx-6 flex flex-col-reverse lg:flex-row justify-center items-center">
                 <Image
                     src="/assets/gif/Project_Implosion.gif"
-                    alt="Chess"
+                    alt="Project Implosion"
                     width={800}
                     height={300}
                     objectFit="cover"
@@ -184,7 +184,7 @@ export default function Projects() {
                 />
                 <Image
                     src="/assets/Images/pi.webp"
-                    alt="Chess"
+                    alt="Project Implosion"
                     width={800}
                     height={300}
                     objectFit="cover"
