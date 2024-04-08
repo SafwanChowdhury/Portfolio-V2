@@ -74,7 +74,7 @@ export default function Projects() {
                         </p>
                     </div>
                     <Image
-                        src="/assets/gif/escooter.gif"
+                        src="/assets/Gif/escooter.gif"
                         alt="Escooter"
                         width={800}
                         height={300}
@@ -154,7 +154,7 @@ export default function Projects() {
                         </p>
                     </div>
                     <Image
-                        src="/assets/gif/Project_SOS.gif"
+                        src="/assets/Gif/Project_SOS.gif"
                         alt="Project SOS"
                         width={800}
                         height={300}
@@ -174,7 +174,7 @@ export default function Projects() {
             </div>
             <div className="group lg:mt-8 lg:-mx-6 flex flex-col-reverse lg:flex-row justify-center items-center">
                 <Image
-                    src="/assets/gif/Project_Implosion.gif"
+                    src="/assets/Gif/Project_Implosion.gif"
                     alt="Project Implosion"
                     width={800}
                     height={300}
