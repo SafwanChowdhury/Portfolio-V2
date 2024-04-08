@@ -21,7 +21,7 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl ${Gif1Loaded ? 'group-hover:block' : 'hidden'"
+                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl ${Gif1Loaded ? 'hidden group-hover:block' : 'hidden'"
                         unoptimized
                         onLoadingComplete={() => setGif1Loaded(true)}
                     />
@@ -89,7 +89,7 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl ${Gif2Loaded ? 'group-hover:block' : 'hidden'"
+                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl ${Gif2Loaded ? 'hidden group-hover:block' : 'hidden'"
                         unoptimized
                         onLoadingComplete={() => setGif2Loaded(true)}
                     />
@@ -110,7 +110,7 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl ${Gif3Loaded ? 'group-hover:block' : 'hidden'"
+                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl ${Gif3Loaded ? 'hidden group-hover:block' : 'hidden'"
                         unoptimized
                         onLoadingComplete={() => setGif3Loaded(true)}
                     />
@@ -173,7 +173,7 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl ${Gif4Loaded ? 'group-hover:block' : 'hidden'"
+                        className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl ${Gif4Loaded ? 'hidden group-hover:block' : 'hidden'"
                         unoptimized
                         onLoadingComplete={() => setGif4Loaded(true)}
                     />
@@ -195,7 +195,7 @@ export default function Projects() {
                     width={800}
                     height={300}
                     objectFit="cover"
-                    className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl ${Gif5Loaded ? 'group-hover:block' : 'hidden'"
+                    className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl ${Gif5Loaded ? 'hidden group-hover:block' : 'hidden'"
                     unoptimized
                     onLoadingComplete={() => setGif5Loaded(true)}
                 />
