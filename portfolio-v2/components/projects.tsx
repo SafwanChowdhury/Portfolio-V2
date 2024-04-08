@@ -15,7 +15,6 @@ export default function Projects() {
                         objectFit="cover"
                         className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl hidden group-hover:block"
                         unoptimized
-                        priority
                     />
                     <Image
                         src="/assets/Images/chess.webp"
@@ -23,7 +22,7 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl unoptimized group-hover:hidden"
+                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl group-hover:hidden"
                     />
                     <div className="mt-6 w-11/12 sm:w-auto lg:w-1/2 lg:mt-0 lg:mx-6 text-center lg:text-left">
                         <a
@@ -82,7 +81,6 @@ export default function Projects() {
                         objectFit="cover"
                         className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl hidden group-hover:block"
                         unoptimized
-                        priority
                     />
                     <Image
                         src="/assets/Images/scooter.webp"
@@ -91,6 +89,7 @@ export default function Projects() {
                         height={300}
                         objectFit="cover"
                         className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl group-hover:hidden"
+                        priority
                     />
                 </div>
                 <div className="group lg:mt-8 lg:-mx-6 flex flex-col-reverse lg:flex-row justify-center items-center">
@@ -102,7 +101,6 @@ export default function Projects() {
                         objectFit="cover"
                         className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl hidden group-hover:block"
                         unoptimized
-                        priority
                     />
                     <Image
                         src="/assets/Images/fhn.webp"
@@ -110,7 +108,8 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl unoptimized group-hover:hidden"
+                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl group-hover:hidden"
+                        priority
                     />
                     <div className="mt-6 w-11/12 sm:w-auto lg:w-1/2 lg:mt-0 lg:mx-6 text-center lg:text-left">
                         <a
@@ -164,7 +163,6 @@ export default function Projects() {
                         objectFit="cover"
                         className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl hidden group-hover:block"
                         unoptimized
-                        priority
                     />
                     <Image
                         src="/assets/Images/ps.webp"
@@ -173,6 +171,7 @@ export default function Projects() {
                         height={300}
                         objectFit="cover"
                         className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl group-hover:hidden"
+                        priority
                     />
                 </div>
             </div>
@@ -185,7 +184,6 @@ export default function Projects() {
                     objectFit="cover"
                     className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl hidden group-hover:block"
                     unoptimized
-                    priority
                 />
                 <Image
                     src="/assets/Images/pi.webp"
@@ -194,6 +192,7 @@ export default function Projects() {
                     height={300}
                     objectFit="cover"
                     className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl unoptimized group-hover:hidden"
+                    priority
                 />
                 <div className="mt-6 w-10/12 sm:w-auto lg:w-1/2 lg:mt-0 lg:mx-6 text-center lg:text-left">
                     <a
