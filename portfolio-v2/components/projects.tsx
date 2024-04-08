@@ -1,5 +1,13 @@
 import Image from "next/image";
+import React, { useState } from "react";
+
 export default function Projects() {
+    const [Gif1Loaded, setGif1Loaded] = useState(false);
+    const [Gif2Loaded, setGif2Loaded] = useState(false);
+    const [Gif3Loaded, setGif3Loaded] = useState(false);
+    const [Gif4Loaded, setGif4Loaded] = useState(false);
+    const [Gif5Loaded, setGif5Loaded] = useState(false);
+
     return (
         <div>
             <h1 className="text-4xl text-center font-thin mt-4 lg:pt-16">
@@ -13,9 +21,9 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl ${Gif1Loaded ? 'group-hover:block' : 'hidden'"
                         unoptimized
-                        priority
+                        onLoadingComplete={() => setGif1Loaded(true)}
                     />
                     <Image
                         src="/assets/Images/chess.webp"
@@ -23,7 +31,7 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl group-hover:hidden"
+                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl ${Gif1Loaded ? 'group-hover:hidden' : 'block'"
                         priority
                     />
                     <div className="mt-6 w-11/12 sm:w-auto lg:w-1/2 lg:mt-0 lg:mx-6 text-center lg:text-left">
@@ -81,9 +89,9 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl ${Gif2Loaded ? 'group-hover:block' : 'hidden'"
                         unoptimized
-                        priority
+                        onLoadingComplete={() => setGif2Loaded(true)}
                     />
                     <Image
                         src="/assets/Images/scooter.webp"
@@ -91,7 +99,7 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl group-hover:hidden"
+                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl ${Gif2Loaded ? 'group-hover:hidden' : 'block'"
                         priority
                     />
                 </div>
@@ -102,9 +110,9 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl ${Gif3Loaded ? 'group-hover:block' : 'hidden'"
                         unoptimized
-                        priority
+                        onLoadingComplete={() => setGif3Loaded(true)}
                     />
                     <Image
                         src="/assets/Images/fhn.webp"
@@ -112,7 +120,7 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl group-hover:hidden"
+                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl ${Gif3Loaded ? 'group-hover:hidden' : 'block'"
                         priority
                     />
                     <div className="mt-6 w-11/12 sm:w-auto lg:w-1/2 lg:mt-0 lg:mx-6 text-center lg:text-left">
@@ -165,9 +173,9 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                        className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl ${Gif4Loaded ? 'group-hover:block' : 'hidden'"
                         unoptimized
-                        priority
+                        onLoadingComplete={() => setGif4Loaded(true)}
                     />
                     <Image
                         src="/assets/Images/ps.webp"
@@ -175,7 +183,7 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl group-hover:hidden"
+                        className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl ${Gif4Loaded ? 'group-hover:hidden' : 'block'"
                         priority
                     />
                 </div>
@@ -187,9 +195,9 @@ export default function Projects() {
                     width={800}
                     height={300}
                     objectFit="cover"
-                    className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                    className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl ${Gif5Loaded ? 'group-hover:block' : 'hidden'"
                     unoptimized
-                    priority
+                    onLoadingComplete={() => setGif5Loaded(true)}
                 />
                 <Image
                     src="/assets/Images/pi.webp"
@@ -197,7 +205,7 @@ export default function Projects() {
                     width={800}
                     height={300}
                     objectFit="cover"
-                    className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl unoptimized group-hover:hidden"
+                    className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl ${Gif5Loaded ? 'group-hover:hidden' : 'block'"
                     priority
                 />
                 <div className="mt-6 w-10/12 sm:w-auto lg:w-1/2 lg:mt-0 lg:mx-6 text-center lg:text-left">
