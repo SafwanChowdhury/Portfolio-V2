@@ -41,6 +41,8 @@ export default function Projects() {
                     <div className="mt-6 w-11/12 sm:w-auto lg:w-1/2 lg:mt-0 lg:mx-6 text-center lg:text-left">
                         <a
                             href="https://3d-chess.co.uk/"
+                            target="_blank"
+                            rel="noopener"
                             className="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-white md:text-3xl"
                         >
                             3D Online VR Chess Game
@@ -65,6 +67,8 @@ export default function Projects() {
                             </div>
                             <a
                                 href="https://3d-chess.co.uk/"
+                                target="_blank"
+                                rel="noopener"
                                 title=""
                                 className="relative z-10 inline-flex items-center justify-center w-full px-8 py-3 text-lg font-bold text-white transition-all duration-200 bg-gray-900 border-2 border-transparent sm:w-auto rounded-xl font-pj hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
                                 role="button"
