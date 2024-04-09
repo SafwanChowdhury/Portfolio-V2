@@ -141,12 +141,22 @@ export default function Footer() {
                         </span>
                     </a>
                 </div>
-                {/* 
+
                 <div className="mb-6">
-                    <p>
-                        
-                    </p>
-                </div> */}
+                    <a
+                        href="https://safwan-chowdhury-portfolio-website-v1.vercel.app"
+                        className="hover:underline cursor-pointer dark:text-invert"
+                    >
+                        Visit Portfolio V1
+                    </a>
+                    <a
+                        href="./CV_Public.pdf"
+                        download="Safwan_Chowdhury_CV"
+                        className="ml-20 hover:underline cursor-pointer dark:text-invert"
+                    >
+                        Download My CV
+                    </a>
+                </div>
             </div>
 
             <div className="w-full bg-black/5 p-4 text-center">
