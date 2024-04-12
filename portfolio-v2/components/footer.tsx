@@ -21,9 +21,11 @@ export default function Footer() {
                             </svg>
                         </span>
                     </a> */}
-
+                    {/* x */}
                     <a
-                        href="#!"
+                        href="https://x.com/SafwanRija"
+                        target="_blank"
+                        rel="noopener"
                         type="button"
                         className="rounded-full bg-white p-3 uppercase leading-normal text-surface shadow-dark-3 shadow-black/30 transition duration-150 ease-in-out hover:shadow-dark-1 focus:shadow-dark-1 focus:outline-none focus:ring-0 active:shadow-1 dark:bg-neutral-700 dark:text-white"
                         data-twe-ripple-init
@@ -57,7 +59,7 @@ export default function Footer() {
                             </svg>
                         </span>
                     </a> */}
-
+                    {/* instagram */}
                     <a
                         href="#!"
                         type="button"
@@ -105,8 +107,11 @@ export default function Footer() {
                             </svg>
                         </span>
                     </a>
+                    {/* linkedin */}
                     <a
-                        href="#!"
+                        href="https://www.linkedin.com/in/safwan-r-chowdhury/"
+                        target="_blank"
+                        rel="noopener"
                         type="button"
                         className="rounded-full bg-white p-3 uppercase leading-normal text-surface shadow-dark-3 shadow-black/30 transition duration-150 ease-in-out hover:shadow-dark-1 focus:shadow-dark-1 focus:outline-none focus:ring-0 active:shadow-1 dark:bg-neutral-700 dark:text-white"
                         data-twe-ripple-init
@@ -122,9 +127,11 @@ export default function Footer() {
                             </svg>
                         </span>
                     </a>
-
+                    {/* github */}
                     <a
-                        href="#!"
+                        href="https://github.com/SafwanChowdhury"
+                        target="_blank"
+                        rel="noopener"
                         type="button"
                         className="rounded-full bg-white p-3 uppercase leading-normal text-surface shadow-dark-3 shadow-black/30 transition duration-150 ease-in-out hover:shadow-dark-1 focus:shadow-dark-1 focus:outline-none focus:ring-0 active:shadow-1 dark:bg-neutral-700 dark:text-white"
                         data-twe-ripple-init
@@ -141,12 +148,24 @@ export default function Footer() {
                         </span>
                     </a>
                 </div>
-                {/* 
+
                 <div className="mb-6">
-                    <p>
-                        
-                    </p>
-                </div> */}
+                    <a
+                        href="https://safwan-chowdhury-portfolio-website-v1.vercel.app"
+                        target="_blank"
+                        rel="noopener"
+                        className="hover:underline cursor-pointer dark:text-invert"
+                    >
+                        Visit Portfolio V1
+                    </a>
+                    <a
+                        href="./CV_Public.pdf"
+                        download="Safwan_Chowdhury_CV"
+                        className="ml-20 hover:underline cursor-pointer dark:text-invert"
+                    >
+                        Download My CV
+                    </a>
+                </div>
             </div>
 
             <div className="w-full bg-black/5 p-4 text-center">

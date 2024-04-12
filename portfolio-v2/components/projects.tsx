@@ -1,5 +1,13 @@
 import Image from "next/image";
+import React, { useState } from "react";
+
 export default function Projects() {
+    const [Gif1Loaded, setGif1Loaded] = useState(false);
+    const [Gif2Loaded, setGif2Loaded] = useState(false);
+    const [Gif3Loaded, setGif3Loaded] = useState(false);
+    const [Gif4Loaded, setGif4Loaded] = useState(false);
+    const [Gif5Loaded, setGif5Loaded] = useState(false);
+
     return (
         <div>
             <h1 className="text-4xl text-center font-thin mt-4 lg:pt-16">
@@ -13,9 +21,11 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                        className={`z-20 object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl ${
+                            Gif1Loaded ? "hidden group-hover:block" : "h-0"
+                        }`}
                         unoptimized
-                        priority
+                        onLoadingComplete={() => setGif1Loaded(true)}
                     />
                     <Image
                         src="/assets/Images/chess.webp"
@@ -23,11 +33,16 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl unoptimized group-hover:hidden"
+                        className={`z-20 object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl ${
+                            Gif1Loaded ? "group-hover:hidden" : "block"
+                        }`}
+                        priority
                     />
                     <div className="mt-6 w-11/12 sm:w-auto lg:w-1/2 lg:mt-0 lg:mx-6 text-center lg:text-left">
                         <a
-                            href="#"
+                            href="https://3d-chess.co.uk/"
+                            target="_blank"
+                            rel="noopener"
                             className="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-white md:text-3xl"
                         >
                             3D Online VR Chess Game
@@ -46,14 +61,26 @@ export default function Projects() {
                             development, offering a novel twist for chess and VR
                             fans.
                         </p>
+                        <div className="relative pb-5">
+                            <div className="absolute -inset-4 dark:inset-2">
+                                <div className="w-full sm:w-5/12 dark:lg:w-4/12 h-full max-w-sm mx-auto lg:mx-0 opacity-30 blur-lg dark:opacity-60 dark:blur-3xl bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FFD700]"></div>
+                            </div>
+                            <a
+                                href="https://3d-chess.co.uk/"
+                                target="_blank"
+                                rel="noopener"
+                                title=""
+                                className="relative z-10 inline-flex items-center justify-center w-full px-8 py-3 text-lg font-bold text-white transition-all duration-200 bg-gray-900 border-2 border-transparent sm:w-auto rounded-xl font-pj hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                                role="button"
+                            >
+                                See It Live!
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="group lg:mt-8 lg:-mx-6 flex flex-col lg:flex-row justify-center items-center">
                     <div className="mt-6 w-11/12 sm:w-auto lg:w-1/2 lg:mt-0 lg:mx-6 text-center lg:text-left">
-                        <a
-                            href="#"
-                            className="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-white md:text-3xl"
-                        >
+                        <a className="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-white md:text-3xl">
                             EScooter Website Project
                         </a>
 
@@ -80,9 +107,11 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                        className={`z-20 object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl ${
+                            Gif2Loaded ? "hidden group-hover:block" : "h-0"
+                        }`}
                         unoptimized
-                        priority
+                        onLoadingComplete={() => setGif2Loaded(true)}
                     />
                     <Image
                         src="/assets/Images/scooter.webp"
@@ -90,7 +119,10 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl group-hover:hidden"
+                        className={`z-20 object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl ${
+                            Gif2Loaded ? "group-hover:hidden" : "block"
+                        }`}
+                        priority
                     />
                 </div>
                 <div className="group lg:mt-8 lg:-mx-6 flex flex-col-reverse lg:flex-row justify-center items-center">
@@ -100,9 +132,11 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                        className={`z-20 object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl ${
+                            Gif3Loaded ? "hidden group-hover:block" : "h-0"
+                        }`}
                         unoptimized
-                        priority
+                        onLoadingComplete={() => setGif3Loaded(true)}
                     />
                     <Image
                         src="/assets/Images/fhn.webp"
@@ -110,13 +144,13 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl unoptimized group-hover:hidden"
+                        className={`z-20 object-fit w-full lg:w-5/12 lg:mx-6 rounded-xl ${
+                            Gif3Loaded ? "group-hover:hidden" : "block"
+                        }`}
+                        priority
                     />
                     <div className="mt-6 w-11/12 sm:w-auto lg:w-1/2 lg:mt-0 lg:mx-6 text-center lg:text-left">
-                        <a
-                            href="#"
-                            className="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-white md:text-3xl"
-                        >
+                        <a className="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-white md:text-3xl">
                             FightHungerNow Website
                         </a>
                         <p className="mt-3 text-md text-gray-500 dark:text-gray-300 lg:text-sm pb-10">
@@ -134,10 +168,7 @@ export default function Projects() {
                 </div>
                 <div className="group lg:mt-8 lg:-mx-6 flex flex-col lg:flex-row justify-center items-center">
                     <div className="mt-6 w-11/12 sm:w-auto lg:w-1/2 lg:mt-0 lg:mx-6 text-center lg:text-left">
-                        <a
-                            href="#"
-                            className="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-white md:text-3xl"
-                        >
+                        <a className="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-white md:text-3xl">
                             Project SOS
                         </a>
 
@@ -162,9 +193,11 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                        className={`z-20 object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl ${
+                            Gif4Loaded ? "hidden group-hover:block" : "h-0"
+                        }`}
                         unoptimized
-                        priority
+                        onLoadingComplete={() => setGif4Loaded(true)}
                     />
                     <Image
                         src="/assets/Images/ps.webp"
@@ -172,7 +205,10 @@ export default function Projects() {
                         width={800}
                         height={300}
                         objectFit="cover"
-                        className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl group-hover:hidden"
+                        className={`z-20 object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl ${
+                            Gif4Loaded ? "group-hover:hidden" : "block"
+                        }`}
+                        priority
                     />
                 </div>
             </div>
@@ -183,9 +219,11 @@ export default function Projects() {
                     width={800}
                     height={300}
                     objectFit="cover"
-                    className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl hidden group-hover:block"
+                    className={`z-20 object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl ${
+                        Gif5Loaded ? "hidden group-hover:block" : "h-0"
+                    }`}
                     unoptimized
-                    priority
+                    onLoadingComplete={() => setGif5Loaded(true)}
                 />
                 <Image
                     src="/assets/Images/pi.webp"
@@ -193,13 +231,13 @@ export default function Projects() {
                     width={800}
                     height={300}
                     objectFit="cover"
-                    className="object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl unoptimized group-hover:hidden"
+                    className={`z-20 object-fit w-1/2 sm:w-2/6 lg:w-2/12 lg:mx-6 rounded-xl ${
+                        Gif5Loaded ? "group-hover:hidden" : "block"
+                    }`}
+                    priority
                 />
                 <div className="mt-6 w-10/12 sm:w-auto lg:w-1/2 lg:mt-0 lg:mx-6 text-center lg:text-left">
-                    <a
-                        href="#"
-                        className="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-white md:text-3xl"
-                    >
+                    <a className="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-white md:text-3xl">
                         Project Implosion
                     </a>
                     <p className="mt-3 text-md text-gray-500 dark:text-gray-300 lg:text-sm pb-10">

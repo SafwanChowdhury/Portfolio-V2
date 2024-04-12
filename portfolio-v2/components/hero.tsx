@@ -35,6 +35,7 @@ export default function hero() {
                 <a
                     href="https://github.com/SafwanChowdhury"
                     target="_blank"
+                    rel="noopener"
                     className="drop-shadow-md hover:drop-shadow-none"
                 >
                     <FontAwesomeIcon icon={faGithub} size="2x" />
@@ -42,6 +43,7 @@ export default function hero() {
                 <a
                     href="https://www.linkedin.com/in/safwan-r-chowdhury/"
                     target="_blank"
+                    rel="noopener"
                     className="drop-shadow-md hover:drop-shadow-none"
                 >
                     <FontAwesomeIcon icon={faLinkedin} size="2x" />
@@ -49,6 +51,7 @@ export default function hero() {
                 <a
                     href="https://x.com/SafwanRija"
                     target="_blank"
+                    rel="noopener"
                     className="drop-shadow-md hover:drop-shadow-none"
                 >
                     <FontAwesomeIcon icon={faXTwitter} size="2x" />
