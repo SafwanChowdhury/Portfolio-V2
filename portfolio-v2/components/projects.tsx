@@ -166,7 +166,7 @@ export default function Projects() {
                         </p>
                     </div>
                 </div>
-                <div className="group lg:mt-8 lg:-mx-6 flex flex-col lg:flex-row justify-center items-center">
+                {/* <div className="group lg:mt-8 lg:-mx-6 flex flex-col lg:flex-row justify-center items-center">
                     <div className="mt-6 w-11/12 sm:w-auto lg:w-1/2 lg:mt-0 lg:mx-6 text-center lg:text-left">
                         <a className="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-white md:text-3xl">
                             Project SOS
@@ -256,7 +256,7 @@ export default function Projects() {
                         Project Implosion offers a thrilling deep-sea adventure
                         for strategy fans and adrenaline junkies alike.
                     </p>
-                </div>
+                </div> */}
             </div>
         </div>
     );

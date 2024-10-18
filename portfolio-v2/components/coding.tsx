@@ -159,7 +159,7 @@ export default function Coding() {
                             </div>
                             <div className="ml-6">
                                 <h2 className="text-sm font-semibold leading-6 text-slate-900 dark:text-slate-200">
-                                    JavaScript
+                                    JavaScript/TypeScript
                                 </h2>
                                 <p className="mt-2 text-sm leading-6 text-slate-700 dark:text-slate-100">
                                     3+ years of experience in JavaScript.
@@ -248,7 +248,7 @@ export default function Coding() {
                                 </p>
                             </div>
                         </div>
-                        {/* C */}
+                        {/* C and C++ */}
                         <div className="group flex p-0.5">
                             <div className="p-0.5">
                                 <svg
@@ -258,27 +258,10 @@ export default function Coding() {
                                 >
                                     <path d="M10.676,15.973a10.052,10.052,0,0,0,1.175,5.151,5.446,5.446,0,0,0,6.306,2.408,4.284,4.284,0,0,0,3.09-3.6c.107-.6.109-.61.109-.61,1.737.251,4.537.658,6.274.906l-.11.44a11.256,11.256,0,0,1-2.7,5.39,9.439,9.439,0,0,1-5.366,2.688,14.61,14.61,0,0,1-8.277-.819A10.151,10.151,0,0,1,5.4,21.687a16.225,16.225,0,0,1,.019-11.45,10.538,10.538,0,0,1,8.963-7.054,13.353,13.353,0,0,1,6.666.555,9.571,9.571,0,0,1,6.167,6.9c.094.352.114.417.114.417-1.932.351-4.319.8-6.238,1.215-.362-1.915-1.265-3.428-3.2-3.9a5.263,5.263,0,0,0-6.616,3.57,10.49,10.49,0,0,0-.385,1.439A12.31,12.31,0,0,0,10.676,15.973Z" />
                                 </svg>
-                            </div>
-                            <div className="ml-6">
-                                <h2 className="text-sm font-semibold leading-6 text-slate-900 dark:text-slate-200">
-                                    C
-                                </h2>
-                                <p className="mt-2 text-sm leading-6 text-slate-700 dark:text-slate-100">
-                                    3+ years of experience in C. Robust
-                                    understanding of core principles. Many
-                                    univeristy assignments written in C
-                                    demonstrating proficiency. Computer graphics
-                                    project developed using C and CMake.
-                                </p>
-                            </div>
-                        </div>
-                        {/* C++, C# and Java*/}
-                        <div className="group flex p-0.5">
-                            <div className="p-0.5">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 22 22"
-                                    className="w-6 h-6 block group-hover:hidden"
+                                    className="mt-2 w-6 h-6 block group-hover:hidden"
                                 >
                                     <g className="fill-black dark:fill-slate-300">
                                         <path d="M6.078 12A5.928 5.928 0 0 1 12 6.078a5.946 5.946 0 0 1 5.129 2.959l-1.499.867 5.027-2.902a1.579 1.579 0 0 0-.543-.575l-7.345-4.24c-.424-.245-1.116-.245-1.539 0l-7.345 4.24c-.422.244-.768.844-.768 1.333v8.48c0 .245.086.517.226.758l3.529-2.038A5.883 5.883 0 0 1 6.078 12z" />
@@ -286,6 +269,53 @@ export default function Coding() {
                                         <path d="m20.657 7.002-5.046 2.913-1.046.605-.001-.001L12 12l-2.563 1.48A2.964 2.964 0 0 0 12 14.961a2.97 2.97 0 0 0 2.565-1.481l2.563 1.483a5.944 5.944 0 0 1-5.129 2.959 5.926 5.926 0 0 1-5.128-2.962l-3.529 2.038c.14.242.332.453.543.575l7.345 4.24c.423.245 1.115.245 1.539 0l7.345-4.24c.211-.122.403-.333.543-.575.14-.241.226-.513.226-.758V7.76c0-.245-.086-.517-.226-.758zm-2.735 5.327h-.658v.658h-.657v-.658h-.658v-.658h.658v-.658h.657v.658h.658v.658zm2.468 0h-.658v.658h-.658v-.658h-.657v-.658h.657v-.658h.658v.658h.658v.658z" />
                                     </g>
                                 </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="10 10 40 40"
+                                    className="mt-2 w-6 h-6 hidden group-hover:block"
+                                >
+                                    <g>
+                                        <path
+                                            d="M47.593 41.008c.251-.435.407-.925.407-1.365V24.367c0-.44-.156-.93-.407-1.364L32 32.005l15.593 9.003z"
+                                            fill="#00599C"
+                                        />
+                                        <path
+                                            d="m33.386 49.68 13.228-7.637c.381-.22.728-.6.979-1.035L32 32.005l-15.593 9.003c.251.435.598.815.979 1.035l13.228 7.637c.762.44 2.01.44 2.772 0z"
+                                            fill="#004482"
+                                        />
+                                        <path
+                                            d="M47.593 23.003c-.251-.436-.598-.815-.979-1.035L33.386 14.33c-.762-.44-2.01-.44-2.772 0l-13.228 7.638c-.762.44-1.386 1.52-1.386 2.4v15.275c0 .44.156.93.407 1.365L32 32.005l15.593-9.002z"
+                                            fill="#659AD2"
+                                        />
+                                        <path
+                                            d="M32 42.672c-5.882 0-10.667-4.785-10.667-10.667S26.118 21.338 32 21.338c3.795 0 7.335 2.043 9.237 5.33l-4.616 2.672A5.356 5.356 0 0 0 32 26.672a5.34 5.34 0 0 0-5.333 5.333A5.34 5.34 0 0 0 32 37.34a5.356 5.356 0 0 0 4.621-2.669l4.616 2.671A10.705 10.705 0 0 1 32 42.671z"
+                                            fill="#ffffff"
+                                        />
+                                        <path
+                                            d="M42.667 31.413H41.48v-1.186h-1.185v1.186h-1.185v1.185h1.185v1.185h1.185v-1.185h1.186v-1.185zM47.111 31.413h-1.185v-1.186H44.74v1.186h-1.185v1.185h1.185v1.185h1.185v-1.185h1.185v-1.185z"
+                                            fill="#ffffff"
+                                        />
+                                    </g>
+                                </svg>
+                            </div>
+                            <div className="ml-6">
+                                <h2 className="text-sm font-semibold leading-6 text-slate-900 dark:text-slate-200">
+                                    C and C++
+                                </h2>
+                                <p className="mt-2 text-sm leading-6 text-slate-700 dark:text-slate-100">
+                                    3+ years of experience in C. Robust
+                                    understanding of core principles. Many
+                                    univeristy assignments written in C
+                                    demonstrating proficiency. 1+ year of
+                                    experince in C++. Final year research
+                                    project in C++ demonstrating advanced
+                                    proficiency.
+                                </p>
+                            </div>
+                        </div>
+                        {/* C# and Java*/}
+                        <div className="group flex p-0.5">
+                            <div className="p-0.5">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 512 512"
@@ -335,34 +365,6 @@ export default function Coding() {
                                 </svg>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="10 10 40 40"
-                                    className="w-6 h-6 hidden group-hover:block"
-                                >
-                                    <g>
-                                        <path
-                                            d="M47.593 41.008c.251-.435.407-.925.407-1.365V24.367c0-.44-.156-.93-.407-1.364L32 32.005l15.593 9.003z"
-                                            fill="#00599C"
-                                        />
-                                        <path
-                                            d="m33.386 49.68 13.228-7.637c.381-.22.728-.6.979-1.035L32 32.005l-15.593 9.003c.251.435.598.815.979 1.035l13.228 7.637c.762.44 2.01.44 2.772 0z"
-                                            fill="#004482"
-                                        />
-                                        <path
-                                            d="M47.593 23.003c-.251-.436-.598-.815-.979-1.035L33.386 14.33c-.762-.44-2.01-.44-2.772 0l-13.228 7.638c-.762.44-1.386 1.52-1.386 2.4v15.275c0 .44.156.93.407 1.365L32 32.005l15.593-9.002z"
-                                            fill="#659AD2"
-                                        />
-                                        <path
-                                            d="M32 42.672c-5.882 0-10.667-4.785-10.667-10.667S26.118 21.338 32 21.338c3.795 0 7.335 2.043 9.237 5.33l-4.616 2.672A5.356 5.356 0 0 0 32 26.672a5.34 5.34 0 0 0-5.333 5.333A5.34 5.34 0 0 0 32 37.34a5.356 5.356 0 0 0 4.621-2.669l4.616 2.671A10.705 10.705 0 0 1 32 42.671z"
-                                            fill="#ffffff"
-                                        />
-                                        <path
-                                            d="M42.667 31.413H41.48v-1.186h-1.185v1.186h-1.185v1.185h1.185v1.185h1.185v-1.185h1.186v-1.185zM47.111 31.413h-1.185v-1.186H44.74v1.186h-1.185v1.185h1.185v1.185h1.185v-1.185h1.185v-1.185z"
-                                            fill="#ffffff"
-                                        />
-                                    </g>
-                                </svg>
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 32 32"
                                     className="w-6 h-10 hidden group-hover:block"
                                 >
@@ -404,16 +406,15 @@ export default function Coding() {
                             </div>
                             <div className="ml-6">
                                 <h2 className="text-sm font-semibold leading-6 text-slate-900 dark:text-slate-200">
-                                    C++, C# and Java
+                                    Java and C#
                                 </h2>
                                 <p className="mt-2 text-sm leading-6 text-slate-700 dark:text-slate-100">
-                                    &#60; 1 year of experience in C++, C# and
-                                    Java, with a solid understanding of
+                                    &#60; 1 year of experience in Java and C#,
+                                    with a solid understanding of
                                     Object-Oriented Programming, pointers,
                                     memory management, data structures, and
                                     algorithms. Practical experience includes a
-                                    few small-scale projects in all 3 languages.
-                                    A couple of unity games developed using C#.
+                                    few small-scale projects in both languages.
                                 </p>
                             </div>
                         </div>

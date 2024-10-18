@@ -24,12 +24,11 @@ export default function hero() {
                 </div>
             </div>
             <div className="w-11/12 mx-auto h-0.5 bg-gray-900 dark:bg-gray-200 mt-4 mb-4"></div>
-
             <p className="w-11/12 lg:w-6/12 font-light text-center pt-3 mx-auto">
                 {" "}
                 A versatile Full-Stack Developer with a flair for crafting
-                immersive VR and modern web and app solutions, I bring legacy
-                systems into the future.
+                immersive, modern web and app solutions, I bring legacy systems
+                into the future.
             </p>
             <div className="flex justify-center gap-10 mt-4 pt-5 text-black dark:invert">
                 <a
@@ -61,6 +60,15 @@ export default function hero() {
                     className="drop-shadow-md hover:drop-shadow-none"
                 >
                     <FontAwesomeIcon icon={faEnvelope} size="2x" />
+                </a>
+            </div>
+            <div className="flex justify-center items-center">
+                <a
+                    href="./CV_Public.pdf"
+                    download="Safwan_Chowdhury_CV"
+                    className="pt-10 text-center hover:underline cursor-pointer dark:text-invert"
+                >
+                    Download My CV
                 </a>
             </div>
         </div>
