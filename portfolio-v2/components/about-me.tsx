@@ -3,7 +3,7 @@ import SVGGradientComponent from "./corners";
 
 export default function AboutMe() {
     return (
-        <div className="flex flex-col w-screen items-center justify-center p-10">
+        <div className="flex flex-col w-screen items-center justify-center p-5">
             <Image
                 src="/assets/pfp_linkedin.jpg"
                 alt="Profile Picture"
