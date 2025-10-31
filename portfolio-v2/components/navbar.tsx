@@ -77,9 +77,9 @@ export default function Navbar() {
                         <li className="hover:underline cursor-pointer">
                             <Link href="#projects">Projects</Link>
                         </li>
-                        {/* <li className="hover:underline cursor-pointer">
-                            Photography
-                        </li> */}
+                        <li className="hover:underline cursor-pointer">
+                            <Link href="#photography">Photography</Link>
+                        </li>
                     </ul>
                     <div className="pl-10 hidden sm:flex"></div>
                 </nav>
@@ -106,9 +106,9 @@ export default function Navbar() {
                         <li className="hover:underline cursor-pointer">
                             <Link href="#projects">Projects</Link>
                         </li>
-                        {/* <li className="hover:underline cursor-pointer">
-                            Photography
-                        </li> */}
+                        <li className="hover:underline cursor-pointer">
+                            <Link href="#photography">Photography</Link>
+                        </li>
                     </ul>
                     <div
                         className={`tham tham-e-squeeze tham-w-6 sm:hidden !duration-300 ${
@@ -140,9 +140,9 @@ export default function Navbar() {
                 <li className="bg-black dark:bg-gray-600 dark:opacity-[.98] py-2">
                     <Link href="#projects">Projects</Link>
                 </li>
-                {/* <li className="bg-black dark:bg-gray-600 dark:opacity-[.98] pt-2 pb-4">
-                    Photography
-                </li> */}
+                <li className="bg-black dark:bg-gray-600 dark:opacity-[.98] pt-2 pb-4">
+                    <Link href="#photography">Photography</Link>
+                </li>
             </ul>
         </div>
     );

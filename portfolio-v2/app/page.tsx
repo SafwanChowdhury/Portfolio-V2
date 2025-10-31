@@ -4,6 +4,7 @@ import AboutMe from "@/components/about-me";
 import Projects from "@/components/projects";
 import Coding from "@/components/coding";
 import Footer from "@/components/footer";
+import Photography from "@/components/photography";
 
 export default function Home() {
     return (
@@ -19,6 +20,9 @@ export default function Home() {
             </div>
             <div id="projects" className="pt-6">
                 <Projects />
+            </div>
+            <div id="photography" className="pt-6 w-full">
+                <Photography />
             </div>
         </main>
     );
