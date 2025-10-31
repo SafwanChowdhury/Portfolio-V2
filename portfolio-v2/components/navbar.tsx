@@ -56,33 +56,25 @@ export default function Navbar() {
 
     return (
         <div>
+            {/* CV button visible when navbar is hidden */}
             <div
-                className={`transition-opacity duration-500 ease-in-out ${
+                className={`fixed top-4 right-10 z-50 transition-opacity duration-300 ease-in-out ${
                     !isScrolled
                         ? "opacity-100"
                         : "opacity-0 pointer-events-none"
                 }`}
             >
-                <nav className="hidden sm:flex items-center p-3 sm:pt-6 lg:p-10 w-full bg-black dark:bg-slate-300 sm:bg-transparent sm:dark:bg-transparent text-slate-200 dark:text-slate-200 sm:text-black">
-                    <h1 className="text-md sm:text-2xl font-normal tracking-widest pl-3 sm:pl-10 cursor-pointer justify-self-start shrink-0">
-                        <Link href="#">SRC</Link>
-                    </h1>
-                    <ul className="text-lg gap-6 justify-center items-center w-full hidden sm:flex pr-10">
-                        <li className="hover:underline cursor-pointer">
-                            <Link href="#about-me">About Me</Link>
-                        </li>
-                        <li className="hover:underline cursor-pointer">
-                            <Link href="#coding">Tools</Link>
-                        </li>
-                        <li className="hover:underline cursor-pointer">
-                            <Link href="#projects">Projects</Link>
-                        </li>
-                        <li className="hover:underline cursor-pointer">
-                            <Link href="#photography">Photography</Link>
-                        </li>
-                    </ul>
-                    <div className="pl-10 hidden sm:flex"></div>
-                </nav>
+                <a
+                    href="./CV_Public.pdf"
+                    download="Safwan_Chowdhury_CV"
+                    className="px-4 py-2 border-2 border-black dark:border-white text-black dark:text-white hover:shadow-lg transition-shadow duration-200 cursor-pointer inline-block rounded-lg"
+                    style={{
+                        backgroundColor: "#d9dfe0",
+                        boxShadow: "inset 0 0 8px rgba(0, 0, 0, 0.3)",
+                    }}
+                >
+                    CV
+                </a>
             </div>
             <div
                 className={`fixed top-0 z-50 w-full transition-opacity duration-300 ease-in-out ${
@@ -108,6 +100,15 @@ export default function Navbar() {
                         </li>
                         <li className="hover:underline cursor-pointer">
                             <Link href="#photography">Photography</Link>
+                        </li>
+                        <li>
+                            <a
+                                href="./CV_Public.pdf"
+                                download="Safwan_Chowdhury_CV"
+                                className="px-4 py-2 border-2 border-black dark:border-white bg-white dark:bg-gray-800 text-black dark:text-white shadow-inner hover:shadow-lg transition-shadow duration-200 cursor-pointer inline-block rounded-lg"
+                            >
+                                CV
+                            </a>
                         </li>
                     </ul>
                     <div
@@ -140,8 +141,17 @@ export default function Navbar() {
                 <li className="bg-black dark:bg-gray-600 dark:opacity-[.98] py-2">
                     <Link href="#projects">Projects</Link>
                 </li>
-                <li className="bg-black dark:bg-gray-600 dark:opacity-[.98] pt-2 pb-4">
+                <li className="bg-black dark:bg-gray-600 dark:opacity-[.98] py-2">
                     <Link href="#photography">Photography</Link>
+                </li>
+                <li className="bg-black dark:bg-gray-600 dark:opacity-[.98] pt-2 pb-4">
+                    <a
+                        href="./CV_Public.pdf"
+                        download="Safwan_Chowdhury_CV"
+                        className="px-4 py-2 border-2 border-white bg-white dark:bg-gray-800 text-black dark:text-white shadow-inner hover:shadow-lg transition-shadow duration-200 cursor-pointer inline-block rounded-lg"
+                    >
+                        CV
+                    </a>
                 </li>
             </ul>
         </div>

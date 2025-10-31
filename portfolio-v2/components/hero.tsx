@@ -13,10 +13,10 @@ export default function hero() {
     return (
         <div className="relative flex-col justify-center p-5">
             <div>
-                <h1 className="text-6xl font-bold text-center text-gray-900 dark:text-gray-200">
+                <h1 className="text-6xl font-bold text-center text-gray-900 dark:text-gray-200 animate-slideInLeft">
                     Safwan R.
                 </h1>{" "}
-                <h2 className="text-6xl text-center text-gray-900 dark:text-gray-200 font-extralight">
+                <h2 className="text-6xl text-center text-gray-900 dark:text-gray-200 font-extralight animate-slideInLeft animation-delay-600">
                     Chowdhury
                 </h2>
                 <div className="text-2xl font-light text-center text-gray-900 pt-5 dark:text-gray-200">
@@ -60,15 +60,6 @@ export default function hero() {
                     className="drop-shadow-md hover:drop-shadow-none"
                 >
                     <FontAwesomeIcon icon={faEnvelope} size="2x" />
-                </a>
-            </div>
-            <div className="flex justify-center items-center">
-                <a
-                    href="./CV_Public.pdf"
-                    download="Safwan_Chowdhury_CV"
-                    className="pt-10 text-center hover:underline cursor-pointer dark:text-invert"
-                >
-                    Download My CV
                 </a>
             </div>
         </div>
